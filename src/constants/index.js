@@ -11,7 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  laravel,
   git,
   figma,
   docker,
@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  iphone,
+  landingpage,
+  dashboard,
   threejs,
 } from "../assets";
 
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Design",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "3D Devloper",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "App Builder",
     icon: creator,
   },
 ];
@@ -93,8 +93,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "Three JS",
@@ -198,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Iphone 15 pro",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "This is a clone of Apple's iPhone 15 Pro website using React.js. effective use of GSAP and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +215,48 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: iphone,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Iphone_Clone_Website",
+    vist_website:"https://iphone-15-clone-website.netlify.app/"
+
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Dashboard",
+    description: 
+    "This project is a simple dashboard created using HTML, CSS. It provides a user-friendly interface for displaying various data and metrics in a visually appealing format.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Dashboard",
+    vist_website:"https://ahmed-alhafni-frontend-dashboard.netlify.app/"
+
+  },
+  {
+    name: "Landing Page",
+    description:
+      "A creative landing page for picking Iphones. show how much awsome with live demo. its sleek design, vibrant colors, and advanced features ",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: landingpage,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Landding_Page_Iphone",
+    vist_website:"https://ahmed-alhafni-iphone-landing-page.netlify.app/"
+
   },
 ];
 
