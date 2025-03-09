@@ -3,18 +3,9 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   laravel,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +13,6 @@ import {
   iphone,
   landingpage,
   dashboard,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -74,10 +64,7 @@ const technologies = [
     name: "Laravel",
     icon: laravel,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
 
 ];
 

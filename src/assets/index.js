@@ -8,19 +8,11 @@ import eyeicon from "./eyeicon.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.webp";
-import docker from "./tech/docker.webp";
-import figma from "./tech/figma.webp";
-import git from "./tech/git.webp";
-import html from "./tech/html.webp";
-import javascript from "./tech/javascript.webp";
+
 import laravel from "./tech/laravel.webp";
-import nodejs from "./tech/nodejs.webp";
 import reactjs from "./tech/reactjs.webp";
-import redux from "./tech/redux.webp";
-import tailwind from "./tech/tailwind.webp";
 import typescript from "./tech/typescript.webp";
-import threejs from "./tech/threejs.svg";
+
 
 import meta from "./company/meta.webp";
 import shopify from "./company/shopify.webp";
@@ -41,19 +33,9 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
   laravel,
-  nodejs,
   reactjs,
-  redux,
-  tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
