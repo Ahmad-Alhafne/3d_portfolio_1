@@ -254,7 +254,7 @@ const projects = [
       ],
     image: template2,
     source_code_link: "https://github.com/Ahmad-Alhafne/Template2",
-    vist_website:"ahmed-alhafni-template2.netlify.app"
+    vist_website:"https://ahmed-alhafni-template2.netlify.app"
   },
   {
     name: "Bondi",
@@ -276,7 +276,7 @@ const projects = [
       ],
     image: bondi,
     source_code_link: "https://github.com/Ahmad-Alhafne/Bootstrap_5_Design_01_Bondi",
-    vist_website:"bootstrap-design-bondi.netlify.app"
+    vist_website:"https://bootstrap-design-bondi.netlify.app"
   },
 ];
 
