@@ -13,6 +13,9 @@ import {
   iphone,
   landingpage,
   dashboard,
+  template3,
+  template2,
+  bondi,
 } from "../assets";
 
 export const navLinks = [
@@ -196,7 +199,7 @@ const projects = [
   {
     name: "Landing Page",
     description:
-      "A creative landing page for picking Iphones. show how much awsome with live demo. its sleek design, vibrant colors, and advanced features ",
+      "A creative landing page for picking Iphones. show how much awsome with live demo. its sleek design, vibrant colors, and advanced features  that even Donald Trump Likes",
       tags: [
         {
           name: "Html",
@@ -211,6 +214,69 @@ const projects = [
     source_code_link: "https://github.com/Ahmad-Alhafne/Landding_Page_Iphone",
     vist_website:"https://ahmed-alhafni-iphone-landing-page.netlify.app/"
 
+  },
+  {
+    name: "Cool One",
+    description:
+      "A creative web page using frontend skills. show how much awsome with live demo. its sleek design, vibrant colors, and cool design  that even Donald Trump Likes",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+      ],
+    image: template3,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Template3",
+    vist_website:"https://ahmed-alhafni-tmeplate3.netlify.app/"
+
+  },
+  {
+    name: "Kaspar",
+    description:
+      "Kasper is a platfrom that show frontend skills. show how much awsome with live demo. its sleek design, vibrant colors, and cool design that even Donald Trump Likes",
+      tags: [
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+    image: template2,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Template2",
+    vist_website:"ahmed-alhafni-template2.netlify.app"
+  },
+  {
+    name: "Bondi",
+    description:
+      "Bondi is a cool theme that build using frontend Tech. show how much awsome with live demo. its sleek design, vibrant colors, and cool design",
+      tags: [
+        {
+          name: "BootStrap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+      ],
+    image: bondi,
+    source_code_link: "https://github.com/Ahmad-Alhafne/Bootstrap_5_Design_01_Bondi",
+    vist_website:"bootstrap-design-bondi.netlify.app"
   },
 ];
 
