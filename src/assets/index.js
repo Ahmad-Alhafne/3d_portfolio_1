@@ -25,6 +25,7 @@ import dashboard from "./dashboard.webp";
 import template3 from "./template3.png";
 import template2 from "./template2.png";
 import bondi from "./bondi.png";
+import coca_cola from "./coca_cola.png";
 
 
 export {
@@ -50,4 +51,5 @@ export {
   template3,
   template2,
   bondi,
+  coca_cola,
 };

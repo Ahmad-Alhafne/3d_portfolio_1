@@ -16,6 +16,7 @@ import {
   template3,
   template2,
   bondi,
+  coca_cola,
 } from "../assets";
 
 export const navLinks = [
@@ -175,6 +176,29 @@ const projects = [
     image: iphone,
     source_code_link: "https://github.com/Ahmad-Alhafne/Iphone_Clone_Website",
     vist_website:"https://iphone-15-clone-website.netlify.app/"
+
+  },
+  {
+    name: "Geeks Drink",
+    description:
+    "3D website built using React and Three.js. It provides an interactive and engaging experience to showcase Coca-Cola Zero Sugar with smooth animations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: coca_cola,
+    source_code_link: "https://github.com/Ahmad-Alhafne/coca-cola-cool-website",
+    vist_website:"https://geeks-drink.netlify.app/"
 
   },
   {
