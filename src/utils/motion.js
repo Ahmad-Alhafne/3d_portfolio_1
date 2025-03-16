@@ -1,7 +1,7 @@
 export const textVariant = (delay) => {
   return {
     hidden: {
-      y: -50,
+      y: window.innerWidth < 768 ? -20 : -50,
       opacity: 0,
     },
     show: {
@@ -9,7 +9,7 @@ export const textVariant = (delay) => {
       opacity: 1,
       transition: {
         type: "spring",
-        duration: 1.25,
+        duration:  window.innerWidth < 768 ? 0.75 : 1.25,
         delay: delay,
       },
     },
@@ -19,8 +19,8 @@ export const textVariant = (delay) => {
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-      y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+      x: direction === "left" ?  (window.innerWidth < 768 ? 50 : 100)  : direction === "right" ? (window.innerWidth < 768 ? -50 : -100) : 0,
+      y: direction === "up" ?(window.innerWidth < 768 ? 50 : 100) : direction === "down" ? (window.innerWidth < 768 ? -50 : -100)  : 0,
       opacity: 0,
     },
     show: {
@@ -30,7 +30,7 @@ export const fadeIn = (direction, type, delay, duration) => {
       transition: {
         type: type,
         delay: delay,
-        duration: duration,
+        duration: window.innerWidth < 768 ? 0.5 :duration,
         ease: "easeOut",
       },
     },
@@ -40,7 +40,7 @@ export const fadeIn = (direction, type, delay, duration) => {
 export const zoomIn = (delay, duration) => {
   return {
     hidden: {
-      scale: 0,
+      scale: window.innerWidth < 768 ? 0.8 : 0,
       opacity: 0,
     },
     show: {
@@ -49,7 +49,7 @@ export const zoomIn = (delay, duration) => {
       transition: {
         type: "tween",
         delay: delay,
-        duration: duration,
+        duration: window.innerWidth < 768 ? 0.5 : duration,
         ease: "easeOut",
       },
     },
@@ -59,8 +59,12 @@ export const zoomIn = (delay, duration) => {
 export const slideIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
-      y: direction === "up" ? "100%" : direction === "down" ? "100%" : 0,
+      x: direction === "left" ? (window.innerWidth < 768 ? "-50%" : "-100%") 
+        : direction === "right" ? (window.innerWidth < 768 ? "50%" : "100%") 
+        : 0,
+      y: direction === "up" ? (window.innerWidth < 768 ? "50%" : "100%") 
+        : direction === "down" ? (window.innerWidth < 768 ? "50%" : "100%") 
+        : 0,
     },
     show: {
       x: 0,
@@ -68,7 +72,7 @@ export const slideIn = (direction, type, delay, duration) => {
       transition: {
         type: type,
         delay: delay,
-        duration: duration,
+        duration: window.innerWidth < 768 ? 0.5 : duration, // Reduce duration for mobile
         ease: "easeOut",
       },
     },
