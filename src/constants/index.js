@@ -200,25 +200,7 @@ const projects = [
     vist_website:"https://geeks-drink.netlify.app/"
 
   },
-  {
-    name: "Dashboard",
-    description: 
-    "This project is a simple dashboard created using HTML, CSS. It provides a user-friendly interface for displaying various data and metrics in a visually appealing format.",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dashboard,
-    source_code_link: "https://github.com/Ahmad-Alhafne/Dashboard",
-    vist_website:"https://ahmed-alhafni-frontend-dashboard.netlify.app/"
 
-  },
   {
     name: "Landing Page",
     description:
