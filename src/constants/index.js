@@ -3,9 +3,6 @@ import {
   backend,
   creator,
   web,
-  typescript,
-  reactjs,
-  laravel,
   meta,
   starbucks,
   tesla,
@@ -52,24 +49,6 @@ const services = [
   },
 ];
 
-const technologies = [
-
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-
-
-];
 
 const experiences = [
   {
@@ -285,4 +264,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };

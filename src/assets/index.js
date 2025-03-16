@@ -9,11 +9,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 
-import laravel from "./tech/laravel.webp";
-import reactjs from "./tech/reactjs.webp";
-import typescript from "./tech/typescript.webp";
-
-
 import meta from "./company/meta.webp";
 import shopify from "./company/shopify.webp";
 import starbucks from "./company/starbucks.webp";
@@ -37,9 +32,6 @@ export {
   github,
   menu,
   close,
-  laravel,
-  reactjs,
-  typescript,
   meta,
   shopify,
   starbucks,
