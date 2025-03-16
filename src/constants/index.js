@@ -12,7 +12,6 @@ import {
   shopify,
   iphone,
   landingpage,
-  dashboard,
   template3,
   template2,
   bondi,
