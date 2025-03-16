@@ -36,6 +36,8 @@ const ProjectCard = ({
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
+            onError={(e) => console.error("Image failed to load:", e.target.src)}
+
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -106,7 +108,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7  border border-red-500 bg-yellow-200'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
